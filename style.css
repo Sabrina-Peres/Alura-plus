@@ -1,0 +1,117 @@
+:root{
+    --cor-titulo: #ffffff;
+    --cor-descrição: #C0C0C0;
+    --cor-botão: #167BF7;
+    --cor-de-fundo: #00030C;
+    --fonte-principal: 'Inter';
+}
+body{
+    background-color: var(--cor-de-fundo);
+    color: var(--cor-titulo);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+}
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.principal{
+    background-image: url(img/Background.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    align-items: center;
+    text-align: center;
+}
+.container{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.container_caixa{
+    margin: 0 6em;
+}
+.titulo{
+    font-size: 28px;
+    font-weight: 700;
+}
+.container_imagem_1{
+    margin: 1em 0 2em 0;
+}
+.container__botao{
+    background-color: var(--cor-botão);
+    border-radius: 5px;
+    padding: 1em;
+    color: var(--cor-titulo);
+    display: block;
+    text-decoration: none;
+    margin-bottom: 1em;
+}
+.botao__secundario{
+    background-color: transparent;
+    border: 2px solid var(--cor-titulo);
+}
+.aviso{
+    font-size: 12px;
+    color: var(--cor-descrição);
+}
+.container_imagem_2{
+    width: 80%;
+}
+.secundario{
+    align-items: center;
+    margin: 0 10em;
+}
+.descricao_titulo{
+    font-weight: 700;
+    font-size: 45px;
+    color: var(--cor-titulo);
+    margin-bottom: 0.1em;
+}
+.descricao_texto{
+    color: var(--cor-descrição);
+}
+.secundario__botao{
+    display: inline-block;
+    margin-top: 1em;
+}
+.container_descricao{
+    padding: 2em;
+}
+.dispositivos__lista{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 5em 0;
+}
+.dispositivos{
+    text-align: center;
+}
+.dispositivos__titulo{
+    font-size: 43px;
+    color: var(--cor-titulo);
+}
+.lista__item{
+    font-size: 25px;
+    color: var(--cor-titulo);
+}
+.rodape__lista{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin-top: 1em;
+}
+.lista__link a{
+    text-decoration: none;
+    color: var(--cor-titulo);
+    margin-left: 1em;
+}
+.rodape_texto{
+    margin: 1em 0;
+    color: var(--cor-descrição);
+    font-size: 14px;
+}
+.rodape {
+    text-align: center;
+    margin: 5em 3em;
+}
