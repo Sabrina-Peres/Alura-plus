@@ -111,7 +111,33 @@ body{
     color: var(--cor-descrição);
     font-size: 14px;
 }
-.rodape {
+.rodape{
     text-align: center;
     margin: 5em 3em;
+}
+
+@media screen and (max-width: 768px){
+   .container{
+    display: block;
+    background-image: none;
+   }
+   .container_imagem_1{
+    width: 50vw;
+   }
+   .container_caixa{
+    margin: 3em 3em;
+   }
+   .secundario{
+    margin: 0;
+    text-align: center;
+   }
+   .container_imagem_2{
+    width: 50vw ;
+   }
+   .dispositivos__lista{
+    display: block;
+   }
+   .rodape__lista{
+    display: block;
+   }
 }
